@@ -17,3 +17,20 @@ Content-Type: application/json
   "name": "Hu Ryou Again",
   "number": "23432422"
 }
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "23432422"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "ada lovelace",
+  "number": "23432422"
+}
